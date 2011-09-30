@@ -1,8 +1,5 @@
 includes[remote] = "https://raw.github.com/kristjanjansen/ut_make/master/ut.make"
 
-; Overwrite
-projects[media][version] = "1.0-beta5"
-
 projects[flag][version] = "2.0-beta6"
 projects[media_gallery][version] = "1.0-beta6"
 projects[multiform][version] = "1.0-beta2"
@@ -11,7 +8,6 @@ projects[] = "devel"
 projects[] = "openx"
 projects[] = "rdfx"
 projects[] = "schemaorg"
-projects[] = "seotools"
 projects[] = "sparql"
 projects[] = "workbench"
 
@@ -26,7 +22,7 @@ projects[] = "feeds"
 projects[] = "feeds_xpathparser"
 
 ; Replace with more advanced version
-projects[] = "openid_ee"
+projects[openid_ee][version] = "1.x-dev"
 
 libraries[elfinder][download][type] = "file"
 libraries[elfinder][download][url] = "http://downloads.sourceforge.net/project/elfinder/elfinder-1.2.zip"
