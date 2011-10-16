@@ -31,9 +31,15 @@ projects[] = "webform"
 projects[] = "wysiwyg"
 projects[] = "xmlsitemap"
 
+projects[] = "omega"
+
 projects[aw_migrate][download][type] = "git"
 projects[aw_migrate][download][url] = "https://github.com/kristjanjansen/aw_migrate"
 projects[aw_migrate][type] = "module"
+
+projects[aw_migrate][download][type] = "git"
+projects[aw_migrate][download][url] = "https://github.com/kristjanjansen/ut_theme"
+projects[aw_migrate][type] = "theme"
 
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"

@@ -1,14 +1,14 @@
 # About
 
-Drush makefiles to build ut.ee. 
+Drush makefiles to build http://www.ut.ee. 
 
-1. ut.make is core installation, only the required stuff
-2. ut_full.make builds on ut.make, adds optional, experimental or yet-to-be-chosen modules
-3. ut_theme.make is for theme development
+ut.make is core installation, only the required stuff
+
+ut_dev.make builds on top of ut.make, adds optional, experimental or yet-to-be-chosen modules
 
 # Installation
 
-1. Make sure you have http://drupal.org/project/drush and http://drupal.org/project/drush_make installed 
+1. Make sure you have Drush and Drush Make installed
 
 2. Run following command:
 
